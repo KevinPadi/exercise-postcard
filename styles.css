@@ -1,18 +1,19 @@
 body {
 	background: black;
-}
-
-* {
-	border: 1px dashed red;
-	min-height: 10px;
+	font-family: "Nunito", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+	color: rgb(46, 169, 218);
 }
 
 p {
-	color: blue;
+	color: black;
 }
 
 .postcard {
 	background-color: white;
+	padding: 10px;
 	width: 400px;
 	height: 300px;
 	margin: auto;
@@ -20,6 +21,7 @@ p {
 
 .postcard-header {
 	display: flex;
+	justify-content: space-between;
 }
 
 .postcard-header img {
@@ -50,10 +52,13 @@ input {
 }
 
 .postcard-footer {
+	margin-bottom: 0;
 	text-align: center;
 }
 
 button {
-	background-color: darkcyan;
+	background-color: rgb(46, 169, 218);
+	color: black;
+	border-radius: 10px;
 	padding: 10px;
 }
